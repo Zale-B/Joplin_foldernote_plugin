@@ -1,0 +1,16 @@
+{
+	"manifest_version": 1,
+	"id": "joplin.plugin.foldernote",
+	"app_min_version": "3.5",
+	"version": "1.0.0",
+	"name": "Joplin Folder Note",
+	"description": "Create an index note containing the contents of current notebook",
+	"author": "Zale-B",
+	"homepage_url": "",
+	"repository_url": "",
+	"keywords": [],
+	"categories": [],
+	"screenshots": [],
+	"icons": {},
+	"promo_tile": {}
+}
