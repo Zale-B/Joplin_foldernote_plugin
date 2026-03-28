@@ -8,8 +8,8 @@
 	"author": "Zale-B",
 	"homepage_url": "https://github.com/Zale-B/Joplin_foldernote_plugin",
 	"repository_url": "https://github.com/Zale-B/Joplin_foldernote_plugin",
-	"keywords": [],
-	"categories": [],
+	"keywords": ["folder note", "index note"],
+	"categories": ["productivity"],
 	"screenshots": [
 		{ "src": "images/screenshot.png", "label": "Screenshot: Shows generated index note" },
 		{ "src": "images/toolbar_icon.png", "label": "Screenshot: Shows the toolbar icon" },
