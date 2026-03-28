@@ -40,34 +40,24 @@ When updating folder notes, the plugin intelligently preserves:
 
 1. Select the notebook you want to create a folder note for
 2. Click the folder icon button in the editor toolbar (or use the command palette: `Folder Note`)
+![toolbar_icon.png](images/toolbar_icon.png)
 3. The plugin will create a note named `_[NotebookName]` containing:
    - A header with the notebook name
    - A "Subnotebooks:" section with links to child notebooks
    - A "Notes:" section with links to all notes in the notebook
 
 ### Example Folder Note Structure
-
-```markdown
-# Content of My Project
-
-## Subnotebooks:
-- [Documentation](:/<note-id>)
-- [Resources](:/<note-id>)
-- [Tasks](:/<note-id>)
-
-## Notes:
-- [Meeting Notes 2024-01-15](:/<note-id>)
-- [Project Overview](:/<note-id>)
-- [Quick References](:/<note-id>)
-```
+![screenshot.png](images/screenshot.png)
 
 ### Updating Folder Notes
 
 When you click the folder button on an existing folder note (or an any other note in the same notebook):
 - If the content is still accurate (no structural changes), the note simply opens
 - If the structure has changed (notes/subnotebooks added, removed, or renamed), you'll be prompted:
+  ![update_note.png](images/update_note.png)
   - **Yes**: Update the lists while preserving your custom content
   - **No**: Open the note without updating
+  
 
 ### Adding Custom Content
 
@@ -91,16 +81,15 @@ This content will be preserved when the plugin updates the folder structure.
 If you encounter any issues or have suggestions for improvements, please file an issue on the GitHub repository.
 
 ## Future plans
-- Link to notes in Wikilink-Format (if Wikilinks plugin is installed and enabled)
 - Add an option to automatically update folder notes without prompting (with a setting to enable/disable this behavior)
 - Add an option to customize the prefix used for folder notes (currently hardcoded as an underscore)
 - Add an option to customize the text used for the "Subnotebooks" and "Notes" sections
-- Create folder notes recursively for all subnotebooks
 - Add a setting to choose whether to include subnotebooks in the folder note or not
 - Add a setting to choose whether to include notes in the folder note or not
 - Add a setting to choose whether to sort the lists alphabetically or by creation date
 - Add a timestamp to the folder note indicating when it was last updated
 - Make the folder note look pretty with some styling (e.g., using emojis, colors, or icons)
+- Create folder notes recursively for all subnotebooks
 ---
 
 
